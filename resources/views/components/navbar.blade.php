@@ -1,4 +1,4 @@
-<div class="p-4 is-shadowless is-radiusless has-text-white">
+<div class="mb-5 p-4 is-shadowless is-radiusless has-text-white">
   <div class="columns is-vcentered">
 
     <div class='column is-1'>
@@ -11,11 +11,11 @@
       </div>
     </div>
 
-    <div class='column is-3'>
+    <div class='column is-5'>
       <div class="title is-4 has-text-white">@yield('pagina', 'Inicio')</div>
     </div>
 
-    <div class='column is-8'>
+    <div class='column is-6'>
       <form action="" method="get">
         <div class="field">
           <div class="control has-icons-right"> 

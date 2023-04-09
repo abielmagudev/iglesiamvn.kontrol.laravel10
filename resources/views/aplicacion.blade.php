@@ -16,7 +16,7 @@
             overflow-x:hidden;
         }
         .has-shadow {
-            box-shadow:.25rem 0.25rem .75rem #242141;
+            box-shadow:.2rem 0.2rem 1rem #242141;
         }
         .is-fullheight {
             height:100vh;
