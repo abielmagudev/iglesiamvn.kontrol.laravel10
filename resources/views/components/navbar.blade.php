@@ -12,7 +12,7 @@
     </div>
 
     <div class='column is-3'>
-      <div class="title is-4 has-text-white">@yield('title', 'Inicio')</div>
+      <div class="title is-4 has-text-white">@yield('pagina', 'Inicio')</div>
     </div>
 
     <div class='column is-8'>

@@ -3,7 +3,7 @@ $menu = [
     'app' => [
         [
             'title' => 'Escritorio',
-            'icon' => '<i class="fa-solid fa-house"></i>',
+            'icon' => '<i class="fa-solid fa-display"></i>',
             'route' => '#',
             'actived' => '',
         ],

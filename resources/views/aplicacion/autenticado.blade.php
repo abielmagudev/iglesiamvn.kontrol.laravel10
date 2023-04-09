@@ -4,8 +4,8 @@
         </div>
         <div class="column">
             <x-navbar />
-            <div class="container p-3">
-                @yield('contentido')
+            <div class="container py-3 px-5">
+                @yield('contenido')
             </div>
         </div>
     </div>
