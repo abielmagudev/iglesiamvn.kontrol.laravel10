@@ -1,9 +1,9 @@
     <div class="columns is-gapless is-desktop">
         <div class="column is-one-fifth is-fullheight has-shadow has-background-white"">
-            <x-navside />
+            @include('aplicacion.navside')
         </div>
         <div class="column">
-            <x-navbar />
+            @include('aplicacion.navbar')
             <div class="container py-3 px-5">
                 @yield('contenido')
             </div>
