@@ -1,5 +1,5 @@
     <div class="columns is-gapless is-desktop">
-        <div class="column is-one-fifth is-fullheight has-shadow has-background-white"">
+        <div class="column is-one-fifth has-background-white is-fullheight has-shadow">
             @include('aplicacion.navside')
         </div>
         <div class="column">
