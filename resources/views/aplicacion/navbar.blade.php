@@ -16,10 +16,10 @@
     </div>
 
     <div class='column is-6'>
-      <form action="" method="get">
+      <form action="{{ route('buscar.index') }}" method="get">
         <div class="field">
           <div class="control has-icons-right"> 
-            <input type="search" class='input is-rounded' placeholder="Buscar persona por nombre, dirección, teléfono..." name="" id="" style="background-color:white">
+            <input type="search" name="caracteristica" id="inputBuscar" class='input is-rounded' placeholder="Buscar persona por nombre, dirección, teléfono..." style="background-color:white">
             <span class="icon is-small is-right">
               <i class="fa-solid fa-magnifying-glass"></i>
             </span>

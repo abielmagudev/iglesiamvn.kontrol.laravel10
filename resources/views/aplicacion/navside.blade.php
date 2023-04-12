@@ -1,52 +1,55 @@
 <?php 
 $menu = [
-    'app' => [
+    'appication' => [
         [
             'title' => 'Escritorio',
             'icon' => '<i class="fa-solid fa-display"></i>',
-            'route' => '#',
+            'route' => route('escritorio.index'),
             'actived' => '',
         ],
         [
             'title' => 'Miembros',
             'icon' => '<i class="fa-solid fa-church"></i>',
-            'route' => '#',
+            'route' => route('miembros.index'),
             'actived' => '',
         ],
         [
             'title' => 'Departamentos',
             'icon' => '<i class="fa-solid fa-shapes"></i>',
-            'route' => '#',
+            'route' => route('departamentos.index'),
             'actived' => '',
         ],
         [
-            'title' => 'Agenda',
+            'title' => 'Eventos',
             'icon' => '<i class="fa-solid fa-calendar"></i>',
-            'route' => '#',
+            'route' => route('eventos.index'),
+            'actived' => '',
+        ],
+        [
+            'title' => 'Citas',
+            'icon' => '<i class="fa-brands fa-rocketchat"></i>',
+            'route' => route('citas.index'),
             'actived' => '',
         ],
         [
             'title' => 'Visitantes',
             'icon' => '<i class="fa-solid fa-person-walking-luggage"></i>',
-            'route' => '#',
+            'route' => route('visitantes.index'),
             'actived' => '',
         ],
-    ],
-    
-    'config' => [       
         [
             'title' => 'Usuarios',
             'icon' => '<i class="fa-solid fa-user-group"></i>',
-            'route' => '#',
+            'route' => route('usuarios.index'),
             'actived' => '',
         ],
     ],
 
-    'user' => [
+    'authenticated' => [
         [
             'title' => 'Mi cuenta',
             'icon' => '<i class="fa-solid fa-circle-user"></i>',
-            'route' => '#',
+            'route' => route('cuenta.index'),
             'actived' => '',
         ],
         [
