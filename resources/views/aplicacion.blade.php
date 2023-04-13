@@ -31,6 +31,11 @@
             border: #DBDBDB solid 1px;
             box-shadow: none;
         }
+        .control-border {
+            border: #DBDBDB solid 1px;
+            border-radius: 4px;
+            padding: 0.5rem 0.75rem;
+        }
         .is-fullheight {
             min-height:100vh;
         }
