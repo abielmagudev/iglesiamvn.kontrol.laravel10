@@ -47,6 +47,12 @@ $menu = [
 
     'authenticated' => [
         [
+            'title' => 'Mi agenda',
+            'icon' => '<i class="fa-solid fa-book"></i>',
+            'route' => '#',
+            'actived' => '',
+        ],
+        [
             'title' => 'Mi cuenta',
             'icon' => '<i class="fa-solid fa-circle-user"></i>',
             'route' => route('cuenta.index'),
